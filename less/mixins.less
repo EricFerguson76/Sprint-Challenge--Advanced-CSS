@@ -6,6 +6,11 @@
   align-items: center;
 }
 
+.h-tag() {
+  display: flex;
+  justify-content: center;
+}
+
 .display-btn(@bg, @c) {
   width: 30%;
   .flexbox();
@@ -19,5 +24,6 @@
 
   &:hover {
     background-color: lighten(@btn-bg-color, 5%);
+    color: orange;
   }
 }
